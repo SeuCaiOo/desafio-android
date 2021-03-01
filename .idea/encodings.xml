@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM" />
+  <component name="Encoding">
+    <file url="file://$USER_HOME$/AndroidStudio/DeviceExplorer/genymobile-motoe7plus_q-192.168.56.102_5555/data/data/com.picpay.desafio.android/databases/word_database" charset="UTF-8" />
+  </component>
 </project>

@@ -1,6 +1,5 @@
 package com.picpay.desafio.android.data.sources.remote
 
-import com.picpay.desafio.android.data.Result
 import com.picpay.desafio.android.data.api.PicPayService
 import com.picpay.desafio.android.data.model.User
 import com.picpay.desafio.android.data.sources.UserDataSource
@@ -15,5 +14,9 @@ class UsersRemoteDataSource(
 
     override suspend fun fetchUsers(): List<User> =
         withContext(ioDispatcher) { return@withContext picPayService.getUsersSuspend() }
+
+    override suspend fun saveUsers(users: List<User>) {
+        // Not required for the remote data source
+    }
 
 }
